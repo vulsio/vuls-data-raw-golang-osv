@@ -9,8 +9,8 @@
 		{
 			"package": {
 				"ecosystem": "Go",
-				"name": "https://github.com/gravitational/teleport",
-				"purl": "pkg:golang/https%3A//github.com/gravitational/teleport"
+				"name": "github.com/gravitational/teleport",
+				"purl": "pkg:golang/github.com/gravitational/teleport"
 			},
 			"ranges": [
 				{
@@ -32,8 +32,8 @@
 		{
 			"package": {
 				"ecosystem": "Go",
-				"name": "https://github.com/gravitational/teleport",
-				"purl": "pkg:golang/https%3A//github.com/gravitational/teleport"
+				"name": "github.com/gravitational/teleport",
+				"purl": "pkg:golang/github.com/gravitational/teleport"
 			},
 			"ranges": [
 				{
@@ -55,8 +55,8 @@
 		{
 			"package": {
 				"ecosystem": "Go",
-				"name": "https://github.com/gravitational/teleport",
-				"purl": "pkg:golang/https%3A//github.com/gravitational/teleport"
+				"name": "github.com/gravitational/teleport",
+				"purl": "pkg:golang/github.com/gravitational/teleport"
 			},
 			"ranges": [
 				{
