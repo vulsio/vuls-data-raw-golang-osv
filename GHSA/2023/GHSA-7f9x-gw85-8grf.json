@@ -19,8 +19,8 @@
 		{
 			"package": {
 				"ecosystem": "Go",
-				"name": "github.com/lestrrat-go/jwx/v2/jwe",
-				"purl": "pkg:golang/github.com/lestrrat-go/jwx/v2/jwe"
+				"name": "github.com/lestrrat-go/jwx",
+				"purl": "pkg:golang/github.com/lestrrat-go/jwx"
 			},
 			"ranges": [
 				{
@@ -30,7 +30,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "2.0.18"
+							"fixed": "1.2.27"
 						}
 					]
 				}
@@ -42,8 +42,8 @@
 		{
 			"package": {
 				"ecosystem": "Go",
-				"name": "github.com/lestrrat-go/jwx/jwe",
-				"purl": "pkg:golang/github.com/lestrrat-go/jwx/jwe"
+				"name": "github.com/lestrrat-go/jwx/v2",
+				"purl": "pkg:golang/github.com/lestrrat-go/jwx/v2"
 			},
 			"ranges": [
 				{
@@ -53,7 +53,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1.2.27"
+							"fixed": "2.0.18"
 						}
 					]
 				}
