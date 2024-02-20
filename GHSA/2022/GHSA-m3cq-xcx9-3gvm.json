@@ -67,7 +67,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://kyverno.io/docs/writing-policies/verify-images/"
+			"url": "https://kyverno.io/docs/writing-policies/verify-images"
 		},
 		{
 			"type": "WEB",
@@ -79,7 +79,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://web.archive.org/web/20230426095744/https://kyverno.io/policies/best-practices/restrict_image_registries/restrict_image_registries/"
+			"url": "https://web.archive.org/web/20230426095744/https://kyverno.io/policies/best-practices/restrict_image_registries/restrict_image_registries"
 		}
 	],
 	"database_specific": {
