@@ -1,11 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-4fp6-574p-fc35",
-	"modified": "2024-02-16T08:26:30.218775Z",
+	"modified": "2024-03-18T19:57:20Z",
 	"published": "2024-02-09T15:31:26Z",
 	"aliases": [
 		"BIT-mattermost-2024-23319",
-		"CVE-2024-23319"
+		"CVE-2024-23319",
+		"GO-2024-2539"
 	],
 	"summary": "Mattermost Jira Plugin vulnerable to Cross-Site Request Forgery",
 	"details": "Mattermost Jira Plugin fails to protect against logout CSRF allowing an attacker to post a specially crafted message that would disconnect a user's Jira connection in Mattermost only by viewing the message.",
@@ -30,7 +31,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "4.0.0-rc2"
+							"fixed": "1.1.2-0.20230830170046-f4cf4c6de017"
 						}
 					]
 				}
@@ -56,6 +57,10 @@
 		{
 			"type": "WEB",
 			"url": "https://mattermost.com/security-updates"
+		},
+		{
+			"type": "WEB",
+			"url": "https://pkg.go.dev/vuln/GO-2024-2539"
 		}
 	],
 	"database_specific": {
