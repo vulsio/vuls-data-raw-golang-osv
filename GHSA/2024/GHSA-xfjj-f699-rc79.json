@@ -1,10 +1,13 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xfjj-f699-rc79",
-	"modified": "2024-05-07T17:11:46.322235Z",
+	"modified": "2024-05-09T18:36:26Z",
 	"published": "2024-05-07T15:30:37Z",
 	"aliases": [
-		"CVE-2024-33434"
+		"CVE-2024-30850",
+		"CVE-2024-33434",
+		"GHSA-p3j6-f45h-hw5f",
+		"GO-2024-2822"
 	],
 	"summary": "tiagorlampert CHAOS vulnerable to arbitrary code execution",
 	"details": "An issue in tiagorlampert CHAOS before 1b451cf62582295b7225caf5a7b506f0bad56f6b and 24c9e109b5be34df7b2bce8368eae669c481ed5e allows a remote attacker to execute arbitrary code via the unsafe concatenation of the `filename` argument into the `buildStr` string without any sanitization or filtering.",
@@ -23,7 +26,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "0.0.0-20220716"
+							"fixed": "0.0.0-20220716132853-b47438d36e3a"
 						}
 					]
 				}
