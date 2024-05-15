@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-75r6-6jg8-pfcq",
-	"modified": "2024-05-13T14:10:08Z",
+	"modified": "2024-05-14T20:01:34Z",
 	"published": "2024-05-13T14:10:08Z",
 	"summary": "octo-sts vulnerable to unauthenticated attacker causing unbounded CPU and memory usage",
 	"details": "### Impact\nThis vulnerability can spike the resource utilization of the STS service, and combined with a significant traffic volume could potentially lead to a denial of service.\n\n### Patches\nThis vulnerability existed in the repository at HEAD, we will cut a 0.1.0 release with the fix.\n\n### Workarounds\nNone\n\n### References\nNone\n",
@@ -42,6 +42,10 @@
 			"url": "https://github.com/octo-sts/app/security/advisories/GHSA-75r6-6jg8-pfcq"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-34079"
+		},
+		{
 			"type": "WEB",
 			"url": "https://github.com/octo-sts/app/commit/74ba874c017cf973edd6711144cf4399a9fcff57"
 		},
@@ -51,10 +55,12 @@
 		}
 	],
 	"database_specific": {
-		"cwe_ids": [],
+		"cwe_ids": [
+			"CWE-400"
+		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-05-13T14:10:08Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2024-05-14T15:38:29Z",
 		"severity": "LOW"
 	}
 }
