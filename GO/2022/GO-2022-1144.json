@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2022-1144",
-	"modified": "2023-12-06T01:02:36.978630Z",
+	"modified": "2024-05-20T16:03:47Z",
 	"published": "2022-12-08T19:01:21Z",
 	"aliases": [
 		"BIT-golang-2022-41717",
@@ -118,6 +118,7 @@
 		}
 	],
 	"database_specific": {
+		"review_status": "REVIEWED",
 		"url": "https://pkg.go.dev/vuln/GO-2022-1144"
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2022-0233",
-	"modified": "2023-11-08T04:05:08.000045Z",
+	"modified": "2024-05-20T16:03:47Z",
 	"published": "2022-07-01T20:18:04Z",
 	"aliases": [
 		"CVE-2021-23409",
@@ -60,6 +60,7 @@
 		}
 	],
 	"database_specific": {
+		"review_status": "REVIEWED",
 		"url": "https://pkg.go.dev/vuln/GO-2022-0233"
 	}
 }

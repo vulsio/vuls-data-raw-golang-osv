@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2023-2077",
-	"modified": "2023-11-08T04:13:31.724770Z",
+	"modified": "2024-05-20T16:03:47Z",
 	"published": "2023-10-02T18:39:20Z",
 	"aliases": [
 		"CVE-2023-43644",
@@ -56,6 +56,7 @@
 		}
 	],
 	"database_specific": {
+		"review_status": "REVIEWED",
 		"url": "https://pkg.go.dev/vuln/GO-2023-2077"
 	}
 }

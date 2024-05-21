@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2023-1941",
-	"modified": "2023-11-08T04:13:03.514889Z",
+	"modified": "2024-05-20T16:03:47Z",
 	"published": "2023-07-31T22:18:02Z",
 	"aliases": [
 		"CVE-2023-37788",
@@ -56,6 +56,7 @@
 		}
 	],
 	"database_specific": {
+		"review_status": "REVIEWED",
 		"url": "https://pkg.go.dev/vuln/GO-2023-1941"
 	}
 }

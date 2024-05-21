@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2022-0384",
-	"modified": "2023-12-06T01:01:14.824191Z",
+	"modified": "2024-05-20T16:03:47Z",
 	"published": "2022-07-15T23:29:45Z",
 	"aliases": [
 		"BIT-helm-2021-32690",
@@ -60,6 +60,7 @@
 		}
 	],
 	"database_specific": {
+		"review_status": "REVIEWED",
 		"url": "https://pkg.go.dev/vuln/GO-2022-0384"
 	}
 }

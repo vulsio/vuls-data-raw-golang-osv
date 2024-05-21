@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-2617",
-	"modified": "2024-05-01T08:11:36.894868Z",
+	"modified": "2024-05-20T16:03:47Z",
 	"published": "2024-03-14T17:13:04Z",
 	"aliases": [
 		"BIT-vault-2024-2048",
@@ -52,6 +52,7 @@
 		}
 	],
 	"database_specific": {
+		"review_status": "REVIEWED",
 		"url": "https://pkg.go.dev/vuln/GO-2024-2617"
 	}
 }

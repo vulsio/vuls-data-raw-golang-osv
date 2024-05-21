@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qwqv-rqgf-8qh8",
-	"modified": "2023-11-08T04:11:11.343520Z",
+	"modified": "2024-05-20T21:50:04Z",
 	"published": "2023-03-27T21:30:26Z",
 	"aliases": [
 		"CVE-2023-0778",
@@ -64,10 +64,6 @@
 		{
 			"type": "WEB",
 			"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2168256"
-		},
-		{
-			"type": "ADVISORY",
-			"url": "https://github.com/advisories/GHSA-qwqv-rqgf-8qh8"
 		},
 		{
 			"type": "PACKAGE",

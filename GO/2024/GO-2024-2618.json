@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-2618",
-	"modified": "2024-03-11T20:41:26.532280Z",
+	"modified": "2024-05-20T16:03:47Z",
 	"published": "2024-03-11T20:10:15Z",
 	"aliases": [
 		"CVE-2024-28110",
@@ -67,6 +67,7 @@
 		}
 	],
 	"database_specific": {
+		"review_status": "REVIEWED",
 		"url": "https://pkg.go.dev/vuln/GO-2024-2618"
 	}
 }

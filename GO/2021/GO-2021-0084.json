@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2021-0084",
-	"modified": "2024-02-13T18:41:44.821063Z",
+	"modified": "2024-05-20T16:03:47Z",
 	"published": "2021-04-14T20:04:52Z",
 	"aliases": [
 		"CVE-2019-16354",
@@ -70,6 +70,7 @@
 		}
 	],
 	"database_specific": {
+		"review_status": "REVIEWED",
 		"url": "https://pkg.go.dev/vuln/GO-2021-0084"
 	}
 }

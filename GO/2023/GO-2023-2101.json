@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2023-2101",
-	"modified": "2023-11-08T04:21:37.727786Z",
+	"modified": "2024-05-20T16:03:47Z",
 	"published": "2023-10-09T21:30:15Z",
 	"aliases": [
 		"GHSA-pffg-92cg-xf5c"
@@ -175,6 +175,7 @@
 		}
 	],
 	"database_specific": {
+		"review_status": "REVIEWED",
 		"url": "https://pkg.go.dev/vuln/GO-2023-2101"
 	}
 }

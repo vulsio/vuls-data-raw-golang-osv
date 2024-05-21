@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-2831",
-	"modified": "2024-05-19T02:24:13.168622Z",
+	"modified": "2024-05-20T16:03:47Z",
 	"published": "2024-05-14T16:33:28Z",
 	"aliases": [
 		"CVE-2024-34360",
@@ -196,6 +196,7 @@
 		}
 	],
 	"database_specific": {
+		"review_status": "REVIEWED",
 		"url": "https://pkg.go.dev/vuln/GO-2024-2831"
 	}
 }

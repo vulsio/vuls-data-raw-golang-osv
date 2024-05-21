@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-2610",
-	"modified": "2024-03-12T09:11:35.678476Z",
+	"modified": "2024-05-20T16:03:47Z",
 	"published": "2024-03-05T22:15:40Z",
 	"aliases": [
 		"BIT-golang-2024-24785",
@@ -73,6 +73,7 @@
 		}
 	],
 	"database_specific": {
+		"review_status": "REVIEWED",
 		"url": "https://pkg.go.dev/vuln/GO-2024-2610"
 	}
 }

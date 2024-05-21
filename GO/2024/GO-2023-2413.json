@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2023-2413",
-	"modified": "2024-01-03T16:41:20.274610Z",
+	"modified": "2024-05-20T16:03:47Z",
 	"published": "2024-01-03T16:11:51Z",
 	"aliases": [
 		"CVE-2023-49922",
@@ -60,6 +60,7 @@
 		}
 	],
 	"database_specific": {
+		"review_status": "REVIEWED",
 		"url": "https://pkg.go.dev/vuln/GO-2023-2413"
 	}
 }
