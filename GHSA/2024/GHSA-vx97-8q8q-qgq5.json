@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vx97-8q8q-qgq5",
-	"modified": "2024-04-26T19:26:46.982264Z",
+	"modified": "2024-06-05T16:43:18.884911Z",
 	"published": "2024-04-26T09:30:34Z",
 	"aliases": [
-		"CVE-2024-32046"
+		"CVE-2024-32046",
+		"GO-2024-2797"
 	],
 	"summary": "Mattermost's detailed error messages reveal the full file path",
 	"details": "Mattermost versions 9.6.x <= 9.6.0, 9.5.x <= 9.5.2, 9.4.x <= 9.4.4 and 8.1.x <= 8.1.11 fail to remove detailed error messages in API requests even if the developer mode is off which allows an attacker to get information about the server such as the full path were files are stored\n\n",
