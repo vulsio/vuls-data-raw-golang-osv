@@ -1,39 +1,8 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-v6v8-xj6m-xwqh",
-	"modified": "2024-06-25T16:12:12.790368Z",
+	"modified": "2024-06-25T22:15:03Z",
 	"published": "2024-06-24T18:31:37Z",
-	"aliases": [
-		"CGA-2gpx-j9wf-x7gf",
-		"CGA-2jpm-8hrp-3x75",
-		"CGA-4vmm-7hrf-9rx6",
-		"CGA-4xr7-qfjp-f5x2",
-		"CGA-4xx5-vp4r-9vwm",
-		"CGA-598r-p58j-7rqf",
-		"CGA-5vrr-fvvw-xjq3",
-		"CGA-96qq-mr6v-8845",
-		"CGA-9mcq-hc99-m76g",
-		"CGA-cm7c-wjqw-rp4x",
-		"CGA-gmc4-4vrp-848q",
-		"CGA-hh84-2wfx-r9gj",
-		"CGA-j2qw-2x9r-mg22",
-		"CGA-j5wf-gj8h-f3rf",
-		"CGA-jr43-5p8x-5hw3",
-		"CGA-m9fq-hq52-q783",
-		"CGA-pwcc-4xxf-c48h",
-		"CGA-qm5w-6gg9-7g6f",
-		"CGA-r8q6-qjpg-f3v5",
-		"CGA-rhq3-96hj-736x",
-		"CGA-rxr7-qjj9-xf8j",
-		"CGA-v32q-j5hh-xh3q",
-		"CGA-v47p-72fh-m2pm",
-		"CGA-vw8v-jp5f-5j9h",
-		"CGA-vwqx-qf6m-p26p",
-		"CGA-w5gj-whrm-qjww",
-		"CGA-w7pc-vv6c-4fmm",
-		"CGA-wj46-pxqf-q6hp",
-		"CVE-2024-6104"
-	],
 	"summary": "go-retryablehttp can leak basic auth credentials to log files",
 	"details": "go-retryablehttp prior to 0.7.7 did not sanitize urls when writing them to its log file. This could lead to go-retryablehttp writing sensitive HTTP basic auth credentials to its log file. This vulnerability, CVE-2024-6104, was fixed in go-retryablehttp 0.7.7.",
 	"severity": [
@@ -79,6 +48,10 @@
 		{
 			"type": "WEB",
 			"url": "https://discuss.hashicorp.com/t/hcsec-2024-12-go-retryablehttp-can-leak-basic-auth-credentials-to-log-files/68027"
+		},
+		{
+			"type": "ADVISORY",
+			"url": "https://github.com/advisories/GHSA-v6v8-xj6m-xwqh"
 		},
 		{
 			"type": "PACKAGE",
