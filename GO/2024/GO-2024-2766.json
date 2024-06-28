@@ -1,15 +1,35 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-2766",
-	"modified": "2024-06-04T16:56:43.819001Z",
+	"modified": "2024-06-28T15:28:40Z",
 	"published": "2024-06-04T15:19:21Z",
 	"aliases": [
 		"CVE-2020-14370",
 		"GHSA-c3wv-qmjj-45r6"
 	],
-	"summary": "Information disclosure in podman in github.com/containers/libpod/v2",
-	"details": "Information disclosure in podman in github.com/containers/libpod/v2",
+	"summary": "Information disclosure in podman in github.com/containers/libpod",
+	"details": "Information disclosure in podman in github.com/containers/libpod",
 	"affected": [
+		{
+			"package": {
+				"ecosystem": "Go",
+				"name": "github.com/containers/libpod",
+				"purl": "pkg:golang/github.com/containers/libpod"
+			},
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://vuln.go.dev/ID/GO-2024-2766.json"
+			}
+		},
 		{
 			"package": {
 				"ecosystem": "Go",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-2919",
-	"modified": "2024-06-14T14:14:20.285937Z",
+	"modified": "2024-06-28T15:28:40Z",
 	"published": "2024-06-14T13:41:08Z",
 	"aliases": [
 		"CVE-2024-5154",
@@ -58,6 +58,10 @@
 		{
 			"type": "WEB",
 			"url": "https://access.redhat.com/errata/RHSA-2024:3676"
+		},
+		{
+			"type": "WEB",
+			"url": "https://access.redhat.com/errata/RHSA-2024:3700"
 		},
 		{
 			"type": "WEB",

@@ -1,16 +1,36 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-2575",
-	"modified": "2024-06-04T16:56:48.821875Z",
+	"modified": "2024-06-28T15:28:40Z",
 	"published": "2024-06-04T15:19:21Z",
 	"aliases": [
 		"BIT-helm-2024-26147",
 		"CVE-2024-26147",
 		"GHSA-r53h-jv2g-vpx6"
 	],
-	"summary": "Helm's Missing YAML Content Leads To Panic in helm.sh/helm/v3",
-	"details": "Helm's Missing YAML Content Leads To Panic in helm.sh/helm/v3",
+	"summary": "Helm's Missing YAML Content Leads To Panic in helm.sh/helm",
+	"details": "Helm's Missing YAML Content Leads To Panic in helm.sh/helm",
 	"affected": [
+		{
+			"package": {
+				"ecosystem": "Go",
+				"name": "helm.sh/helm",
+				"purl": "pkg:golang/helm.sh/helm"
+			},
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://vuln.go.dev/ID/GO-2024-2575.json"
+			}
+		},
 		{
 			"package": {
 				"ecosystem": "Go",

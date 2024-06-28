@@ -1,16 +1,36 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-2902",
-	"modified": "2024-06-14T14:14:16.268843Z",
+	"modified": "2024-06-28T15:28:40Z",
 	"published": "2024-06-14T13:41:08Z",
 	"aliases": [
 		"BIT-argo-cd-2024-37152",
 		"CVE-2024-37152",
 		"GHSA-87p9-x75h-p4j2"
 	],
-	"summary": "Unauthenticated Access to sensitive settings in Argo CD in github.com/argoproj/argo-cd/v2",
-	"details": "Unauthenticated Access to sensitive settings in Argo CD in github.com/argoproj/argo-cd/v2",
+	"summary": "Unauthenticated Access to sensitive settings in Argo CD in github.com/argoproj/argo-cd",
+	"details": "Unauthenticated Access to sensitive settings in Argo CD in github.com/argoproj/argo-cd",
 	"affected": [
+		{
+			"package": {
+				"ecosystem": "Go",
+				"name": "github.com/argoproj/argo-cd",
+				"purl": "pkg:golang/github.com/argoproj/argo-cd"
+			},
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://vuln.go.dev/ID/GO-2024-2902.json"
+			}
+		},
 		{
 			"package": {
 				"ecosystem": "Go",
@@ -57,7 +77,7 @@
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-37152"
 		},
 		{
-			"type": "WEB",
+			"type": "FIX",
 			"url": "https://github.com/argoproj/argo-cd/commit/256d90178b11b04bc8174d08d7b663a2a7b1771b"
 		}
 	],
