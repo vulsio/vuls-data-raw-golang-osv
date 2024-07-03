@@ -1,21 +1,15 @@
 {
 	"schema_version": "1.6.0",
-	"id": "GHSA-m25m-5778-fm22",
+	"id": "GO-2024-2519",
 	"modified": "2024-07-02T19:57:16.008180Z",
-	"published": "2022-05-24T17:16:52Z",
+	"published": "2024-07-02T19:23:51Z",
 	"aliases": [
 		"BIT-grafana-2020-12459",
 		"CVE-2020-12459",
-		"GO-2024-2519"
+		"GHSA-m25m-5778-fm22"
 	],
-	"summary": "Grafana world readable configuration files",
-	"details": "In certain Red Hat packages for Grafana 6.x through 6.3.6, the configuration files `/etc/grafana/grafana.ini` and `/etc/grafana/ldap.toml` (which contain a secret_key and a bind_password) are world readable.",
-	"severity": [
-		{
-			"type": "CVSS_V3",
-			"score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
-		}
-	],
+	"summary": "Grafana world readable configuration files in github.com/grafana/grafana",
+	"details": "Grafana world readable configuration files in github.com/grafana/grafana",
 	"affected": [
 		{
 			"package": {
@@ -28,31 +22,32 @@
 					"type": "SEMVER",
 					"events": [
 						{
-							"introduced": "6.0"
-						},
-						{
-							"fixed": "7.2.1"
+							"introduced": "0"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-m25m-5778-fm22/GHSA-m25m-5778-fm22.json"
+				"source": "https://vuln.go.dev/ID/GO-2024-2519.json"
 			}
 		}
 	],
 	"references": [
 		{
 			"type": "ADVISORY",
+			"url": "https://github.com/advisories/GHSA-m25m-5778-fm22"
+		},
+		{
+			"type": "ADVISORY",
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-12459"
 		},
 		{
-			"type": "WEB",
-			"url": "https://github.com/grafana/grafana/issues/8283"
+			"type": "FIX",
+			"url": "https://github.com/grafana/grafana/commit/102448040d5132460e3b0013e03ebedec0677e00"
 		},
 		{
-			"type": "WEB",
-			"url": "https://github.com/grafana/grafana/commit/102448040d5132460e3b0013e03ebedec0677e00"
+			"type": "REPORT",
+			"url": "https://github.com/grafana/grafana/issues/8283"
 		},
 		{
 			"type": "WEB",
@@ -84,13 +79,7 @@
 		}
 	],
 	"database_specific": {
-		"cwe_ids": [
-			"CWE-200",
-			"CWE-732"
-		],
-		"github_reviewed": true,
-		"github_reviewed_at": "2024-02-01T21:46:14Z",
-		"nvd_published_at": "2020-04-29T16:15:00Z",
-		"severity": "MODERATE"
+		"review_status": "UNREVIEWED",
+		"url": "https://pkg.go.dev/vuln/GO-2024-2519"
 	}
 }
