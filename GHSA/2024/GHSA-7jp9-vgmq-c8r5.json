@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7jp9-vgmq-c8r5",
-	"modified": "2024-06-28T15:58:33.648950Z",
+	"modified": "2024-07-05T21:19:09Z",
 	"published": "2024-06-13T21:30:52Z",
 	"aliases": [
 		"CVE-2024-36586",
@@ -59,7 +59,9 @@
 		}
 	],
 	"database_specific": {
-		"cwe_ids": [],
+		"cwe_ids": [
+			"CWE-269"
+		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-06-13T23:18:26Z",
 		"nvd_published_at": "2024-06-13T19:15:51Z",
