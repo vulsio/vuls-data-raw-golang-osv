@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-v4h8-794j-g8mm",
-	"modified": "2023-11-08T03:57:54.435103Z",
+	"modified": "2024-07-08T15:53:58Z",
 	"published": "2022-02-15T01:57:18Z",
 	"aliases": [
 		"CVE-2015-3631"
@@ -18,8 +18,8 @@
 		{
 			"package": {
 				"ecosystem": "Go",
-				"name": "github.com/moby/moby",
-				"purl": "pkg:golang/github.com/moby/moby"
+				"name": "github.com/docker/docker",
+				"purl": "pkg:golang/github.com/docker/docker"
 			},
 			"ranges": [
 				{
@@ -43,6 +43,10 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3631"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/moby/moby"
 		},
 		{
 			"type": "WEB",

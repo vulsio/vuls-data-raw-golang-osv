@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-v2cv-wwxq-qq97",
-	"modified": "2024-06-28T15:58:34.298942Z",
+	"modified": "2024-07-08T15:55:04Z",
 	"published": "2022-05-24T16:51:39Z",
 	"aliases": [
 		"CVE-2019-14271",
@@ -19,8 +19,8 @@
 		{
 			"package": {
 				"ecosystem": "Go",
-				"name": "github.com/moby/moby",
-				"purl": "pkg:golang/github.com/moby/moby"
+				"name": "github.com/docker/docker",
+				"purl": "pkg:golang/github.com/docker/docker"
 			},
 			"ranges": [
 				{
@@ -64,6 +64,10 @@
 		{
 			"type": "WEB",
 			"url": "https://docs.docker.com/engine/release-notes"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/moby/moby"
 		},
 		{
 			"type": "WEB",

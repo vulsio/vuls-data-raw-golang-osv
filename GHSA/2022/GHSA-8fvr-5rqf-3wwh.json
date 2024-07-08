@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-8fvr-5rqf-3wwh",
-	"modified": "2023-11-08T03:57:54.373843Z",
+	"modified": "2024-07-08T15:53:31Z",
 	"published": "2022-02-15T01:57:18Z",
 	"aliases": [
 		"CVE-2015-3630"
@@ -18,8 +18,8 @@
 		{
 			"package": {
 				"ecosystem": "Go",
-				"name": "github.com/moby/moby",
-				"purl": "pkg:golang/github.com/moby/moby"
+				"name": "github.com/docker/docker",
+				"purl": "pkg:golang/github.com/docker/docker"
 			},
 			"ranges": [
 				{
@@ -47,6 +47,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/moby/moby/commit/545b440a80f676a506e5837678dd4c4f65e78660"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/moby/moby"
 		},
 		{
 			"type": "WEB",
