@@ -1,8 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-2980",
-	"modified": "2024-07-12T16:45:14Z",
+	"modified": "2024-07-12T17:12:14.376416Z",
 	"published": "2024-07-12T16:45:14Z",
+	"aliases": [
+		"CVE-2022-29946",
+		"GHSA-2h2x-8hh2-mfq8"
+	],
 	"summary": "NATS Server and Streaming Server fails to enforce negative user permissions, may allow denied subjects in github.com/nats-io/nats-server",
 	"details": "NATS Server and Streaming Server fails to enforce negative user permissions, may allow denied subjects in github.com/nats-io/nats-server",
 	"affected": [
