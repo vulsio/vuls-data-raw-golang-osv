@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5grx-v727-qmq6",
-	"modified": "2024-07-18T15:00:03.548620Z",
+	"modified": "2024-07-18T19:45:46Z",
 	"published": "2024-07-18T14:25:00Z",
 	"aliases": [
 		"CVE-2024-39907"
@@ -49,6 +49,10 @@
 			"url": "https://github.com/1Panel-dev/1Panel/security/advisories/GHSA-5grx-v727-qmq6"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-39907"
+		},
+		{
 			"type": "WEB",
 			"url": "https://github.com/1Panel-dev/1Panel/commit/ff549a47937c1314e6ee08453a1d2128242440cd"
 		},
@@ -63,7 +67,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-07-18T14:25:00Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2024-07-18T16:15:07Z",
 		"severity": "CRITICAL"
 	}
 }
