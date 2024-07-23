@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-w799-v85j-88pg",
-	"modified": "2024-07-19T16:55:25Z",
+	"modified": "2024-07-22T18:56:49.878686Z",
 	"published": "2024-07-17T03:31:38Z",
 	"aliases": [
-		"CVE-2024-6535"
+		"CVE-2024-6535",
+		"GO-2024-2987"
 	],
 	"summary": "Skupper uses a static cookie secret for the openshift oauth-proxy",
 	"details": "A flaw was found in Skupper. When Skupper is initialized with the console-enabled and with console-auth set to Openshift, it configures the openshift oauth-proxy with a static cookie-secret. In certain circumstances, this may allow an attacker to bypass authentication to the Skupper console via a specially-crafted cookie.",
