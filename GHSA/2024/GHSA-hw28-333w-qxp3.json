@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hw28-333w-qxp3",
-	"modified": "2024-07-31T17:11:57.081244Z",
+	"modified": "2024-08-02T16:01:53Z",
 	"published": "2024-07-31T16:53:13Z",
 	"aliases": [
 		"CVE-2024-22278"
@@ -72,6 +72,10 @@
 			"url": "https://github.com/goharbor/harbor/security/advisories/GHSA-hw28-333w-qxp3"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-22278"
+		},
+		{
 			"type": "PACKAGE",
 			"url": "https://github.com/goharbor/harbor"
 		}
@@ -82,7 +86,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-07-31T16:53:13Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2024-08-02T01:15:23Z",
 		"severity": "MODERATE"
 	}
 }

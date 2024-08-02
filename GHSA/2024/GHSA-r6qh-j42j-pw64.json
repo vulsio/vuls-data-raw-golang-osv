@@ -7,6 +7,7 @@
 		"CVE-2024-40464"
 	],
 	"related": [
+		"CGA-jh8m-hfwj-qqqw",
 		"CGA-v775-x33p-3qh4"
 	],
 	"summary": "Beego privilege escalation vulnerability",
