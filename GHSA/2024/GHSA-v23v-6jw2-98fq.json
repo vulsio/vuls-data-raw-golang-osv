@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-v23v-6jw2-98fq",
-	"modified": "2024-07-30T10:18:57Z",
+	"modified": "2024-08-01T17:14:45Z",
 	"published": "2024-07-30T10:18:57Z",
 	"aliases": [
 		"CVE-2024-41110",
@@ -82,7 +82,7 @@
 					"type": "SEMVER",
 					"events": [
 						{
-							"introduced": "24.0.0"
+							"introduced": "26.0.0"
 						},
 						{
 							"fixed": "26.1.4"
@@ -109,6 +109,29 @@
 						},
 						{
 							"fixed": "27.1.0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/07/GHSA-v23v-6jw2-98fq/GHSA-v23v-6jw2-98fq.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Go",
+				"name": "github.com/docker/docker",
+				"purl": "pkg:golang/github.com/docker/docker"
+			},
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "24.0.0"
+						},
+						{
+							"fixed": "25.0.6"
 						}
 					]
 				}
