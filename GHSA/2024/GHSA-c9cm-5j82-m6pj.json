@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-c9cm-5j82-m6pj",
-	"modified": "2024-08-06T22:27:04.916392Z",
+	"modified": "2024-08-07T15:07:11Z",
 	"published": "2024-07-24T21:31:30Z",
 	"aliases": [
 		"CVE-2024-36536",
@@ -56,6 +56,10 @@
 		{
 			"type": "PACKAGE",
 			"url": "https://github.com/fabedge/fabedge"
+		},
+		{
+			"type": "WEB",
+			"url": "https://pkg.go.dev/vuln/GO-2024-3027"
 		}
 	],
 	"database_specific": {

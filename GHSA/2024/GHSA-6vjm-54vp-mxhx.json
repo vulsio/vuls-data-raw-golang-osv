@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6vjm-54vp-mxhx",
-	"modified": "2024-08-06T22:26:58.403403Z",
+	"modified": "2024-08-07T14:13:30Z",
 	"published": "2024-08-05T17:19:11Z",
 	"aliases": [
 		"CVE-2024-6984",
@@ -153,6 +153,14 @@
 		{
 			"type": "PACKAGE",
 			"url": "https://github.com/juju/juju"
+		},
+		{
+			"type": "WEB",
+			"url": "https://pkg.go.dev/vuln/GO-2024-3010"
+		},
+		{
+			"type": "WEB",
+			"url": "https://pkg.go.dev/vuln/GO-2024-3040"
 		}
 	],
 	"database_specific": {
