@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-9v35-4xcr-w9ph",
-	"modified": "2024-08-07T14:41:56.746331Z",
+	"modified": "2024-08-13T23:42:03.657783Z",
 	"published": "2024-08-01T18:32:50Z",
 	"aliases": [
-		"CVE-2024-41260"
+		"CVE-2024-41260",
+		"GO-2024-3057"
 	],
 	"summary": "NetBird uses a static initialization vector (IV)",
 	"details": "A static initialization vector (IV) in the encrypt function of netbird v0.28.4 allows attackers to obtain sensitive information.",
