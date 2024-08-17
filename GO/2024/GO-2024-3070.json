@@ -1,0 +1,56 @@
+{
+	"schema_version": "1.6.0",
+	"id": "GO-2024-3070",
+	"modified": "2024-08-16T19:41:56.061384Z",
+	"published": "2024-08-16T17:28:56Z",
+	"aliases": [
+		"CVE-2024-32231",
+		"GHSA-75jf-52jg-qqh4"
+	],
+	"summary": "CVE-2024-32231 in github.com/stashapp/stash",
+	"details": "CVE-2024-32231 in github.com/stashapp/stash",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Go",
+				"name": "github.com/stashapp/stash",
+				"purl": "pkg:golang/github.com/stashapp/stash"
+			},
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://vuln.go.dev/ID/GO-2024-3070.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-32231"
+		},
+		{
+			"type": "FIX",
+			"url": "https://github.com/stashapp/stash/pull/4865"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/stashapp"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/stashapp/stash"
+		}
+	],
+	"database_specific": {
+		"review_status": "UNREVIEWED",
+		"url": "https://pkg.go.dev/vuln/GO-2024-3070"
+	}
+}
