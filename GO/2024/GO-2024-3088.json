@@ -1,8 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3088",
-	"modified": "2024-08-30T17:18:07Z",
+	"modified": "2024-08-30T17:42:22.631869Z",
 	"published": "2024-08-30T17:18:07Z",
+	"aliases": [
+		"CVE-2024-41659",
+		"GHSA-p4fx-qf2h-jpmj"
+	],
 	"summary": "memos CORS Misconfiguration in server.go (GHSL-2024-034) in github.com/usememos/memos",
 	"details": "memos CORS Misconfiguration in server.go (GHSL-2024-034) in github.com/usememos/memos",
 	"affected": [

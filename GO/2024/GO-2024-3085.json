@@ -1,8 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3085",
-	"modified": "2024-08-30T17:18:07Z",
+	"modified": "2024-08-30T17:42:39.342586Z",
 	"published": "2024-08-30T17:18:07Z",
+	"aliases": [
+		"CVE-2024-42490",
+		"GHSA-qxqc-27pr-wgc8"
+	],
 	"summary": "GoAuthentik vulnerable to Insufficient Authorization for several API endpoints in goauthentik.io",
 	"details": "GoAuthentik vulnerable to Insufficient Authorization for several API endpoints in goauthentik.io.\n\nNOTE: The source advisory for this report contains additional versions that could not be automatically mapped to standard Go module versions.\n\n(If this is causing false-positive reports from vulnerability scanners, please suggest an edit to the report.)\n\nThe additional affected modules and versions are: goauthentik.io before v2024.4.4, from v2024.6.0-rc1 before v2024.6.4.",
 	"affected": [

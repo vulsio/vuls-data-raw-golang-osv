@@ -1,8 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3093",
-	"modified": "2024-08-30T17:18:07Z",
+	"modified": "2024-08-30T17:42:36.793088Z",
 	"published": "2024-08-30T17:18:07Z",
+	"aliases": [
+		"CVE-2024-32939",
+		"GHSA-4ww8-fprq-cq34"
+	],
 	"summary": "Mattermost doesn't redact remote users' original email addresses in github.com/mattermost/mattermost-server",
 	"details": "Mattermost doesn't redact remote users' original email addresses in github.com/mattermost/mattermost-server",
 	"affected": [

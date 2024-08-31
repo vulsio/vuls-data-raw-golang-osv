@@ -1,8 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3092",
-	"modified": "2024-08-30T17:18:07Z",
+	"modified": "2024-08-30T17:42:24.106040Z",
 	"published": "2024-08-30T17:18:07Z",
+	"aliases": [
+		"CVE-2024-39777",
+		"GHSA-q22q-2rrf-m27p"
+	],
 	"summary": "Mattermost allows unsolicited invites to expose access to local channels in github.com/mattermost/mattermost-server",
 	"details": "Mattermost allows unsolicited invites to expose access to local channels in github.com/mattermost/mattermost-server",
 	"affected": [

@@ -1,8 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3087",
-	"modified": "2024-08-30T17:18:07Z",
+	"modified": "2024-08-30T17:42:26.105969Z",
 	"published": "2024-08-30T17:18:07Z",
+	"aliases": [
+		"CVE-2024-41657",
+		"GHSA-mchx-7j67-8mcf"
+	],
 	"summary": "Casdoor CORS misconfiguration (GHSL-2024-035) in github.com/casdoor/casdoor",
 	"details": "Casdoor CORS misconfiguration (GHSL-2024-035) in github.com/casdoor/casdoor",
 	"affected": [

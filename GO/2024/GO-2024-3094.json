@@ -1,8 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3094",
-	"modified": "2024-08-30T17:18:07Z",
+	"modified": "2024-08-30T17:42:36.698865Z",
 	"published": "2024-08-30T17:18:07Z",
+	"aliases": [
+		"CVE-2024-8071",
+		"GHSA-5263-pm2h-m7hw"
+	],
 	"summary": "Mattermost doesn't restrict which roles can promote a user as system admin in github.com/mattermost/mattermost-server",
 	"details": "Mattermost doesn't restrict which roles can promote a user as system admin in github.com/mattermost/mattermost-server",
 	"affected": [

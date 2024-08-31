@@ -1,8 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3102",
-	"modified": "2024-08-30T17:18:07Z",
+	"modified": "2024-08-30T17:42:15.887916Z",
 	"published": "2024-08-30T17:18:07Z",
+	"aliases": [
+		"CVE-2024-45043",
+		"GHSA-prf6-xjxh-p698"
+	],
 	"summary": "OpenTelemetry Collector module AWS Firehose Receiver Authentication Bypass Vulnerability in github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsfirehosereceiver",
 	"details": "OpenTelemetry Collector module AWS Firehose Receiver Authentication Bypass Vulnerability in github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsfirehosereceiver",
 	"affected": [

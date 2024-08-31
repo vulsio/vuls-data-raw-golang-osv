@@ -1,8 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3103",
-	"modified": "2024-08-30T17:18:07Z",
+	"modified": "2024-08-30T17:42:33.980085Z",
 	"published": "2024-08-30T17:18:07Z",
+	"aliases": [
+		"CVE-2024-45054",
+		"GHSA-mgwr-h7mv-fh29"
+	],
 	"summary": "Hwameistor Potential Permission Leakage of Cluster Level in github.com/hwameistor/hwameistor",
 	"details": "Hwameistor Potential Permission Leakage of Cluster Level in github.com/hwameistor/hwameistor",
 	"affected": [

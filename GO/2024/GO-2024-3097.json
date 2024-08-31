@@ -1,8 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3097",
-	"modified": "2024-08-30T17:18:07Z",
+	"modified": "2024-08-30T17:42:37.271559Z",
 	"published": "2024-08-30T17:18:07Z",
+	"aliases": [
+		"CVE-2024-40886",
+		"GHSA-hrf9-rm95-fpf3"
+	],
 	"summary": "Mattermost Cross-Site Request Forgery vulnerability in github.com/mattermost/mattermost-server",
 	"details": "Mattermost Cross-Site Request Forgery vulnerability in github.com/mattermost/mattermost-server",
 	"affected": [

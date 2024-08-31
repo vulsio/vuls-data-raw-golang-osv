@@ -1,8 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3091",
-	"modified": "2024-08-30T17:18:07Z",
+	"modified": "2024-08-30T17:42:22.116814Z",
 	"published": "2024-08-30T17:18:07Z",
+	"aliases": [
+		"CVE-2024-42497",
+		"GHSA-fxq9-6946-34q7"
+	],
 	"summary": "Mattermost allows user with systems manager role with read-only access to teams to perform write operations on teams in github.com/mattermost/mattermost-server",
 	"details": "Mattermost allows user with systems manager role with read-only access to teams to perform write operations on teams in github.com/mattermost/mattermost-server",
 	"affected": [

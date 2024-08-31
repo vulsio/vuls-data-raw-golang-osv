@@ -1,8 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3104",
-	"modified": "2024-08-30T17:18:07Z",
+	"modified": "2024-08-30T17:42:26.645913Z",
 	"published": "2024-08-30T17:18:07Z",
+	"aliases": [
+		"CVE-2024-45436",
+		"GHSA-846m-99qv-67mg"
+	],
 	"summary": "Ollama can extract members of a ZIP archive outside of the parent directory in github.com/ollama/ollama",
 	"details": "Ollama can extract members of a ZIP archive outside of the parent directory in github.com/ollama/ollama",
 	"affected": [

@@ -1,8 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3099",
-	"modified": "2024-08-30T17:18:07Z",
+	"modified": "2024-08-30T17:42:35.834441Z",
 	"published": "2024-08-30T17:18:07Z",
+	"aliases": [
+		"CVE-2024-45244",
+		"GHSA-48gg-32q2-4r6m"
+	],
 	"summary": "Hyperledger Fabric does not verify request has a timestamp within the expected time window in github.com/hyperledger/fabric",
 	"details": "Hyperledger Fabric does not verify request has a timestamp within the expected time window in github.com/hyperledger/fabric",
 	"affected": [

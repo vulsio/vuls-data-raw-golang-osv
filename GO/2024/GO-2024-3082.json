@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3082",
-	"modified": "2024-08-30T17:18:07Z",
+	"modified": "2024-08-30T17:42:48.017174Z",
 	"published": "2024-08-30T17:18:07Z",
+	"aliases": [
+		"GHSA-g8w7-7vgg-x7xg"
+	],
 	"summary": "CWA-2024-005: Stackoverflow in wasmd in github.com/CosmWasm/wasmd",
 	"details": "CWA-2024-005: Stackoverflow in wasmd in github.com/CosmWasm/wasmd",
 	"affected": [

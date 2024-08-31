@@ -1,8 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3096",
-	"modified": "2024-08-30T17:18:07Z",
+	"modified": "2024-08-30T17:42:33.698195Z",
 	"published": "2024-08-30T17:18:07Z",
+	"aliases": [
+		"CVE-2024-39836",
+		"GHSA-c6vp-jjgv-38wj"
+	],
 	"summary": "Mattermost allows remote/synthetic users to create sessions, reset passwords in github.com/mattermost/mattermost-server",
 	"details": "Mattermost allows remote/synthetic users to create sessions, reset passwords in github.com/mattermost/mattermost-server",
 	"affected": [

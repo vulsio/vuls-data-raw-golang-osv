@@ -1,8 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3089",
-	"modified": "2024-08-30T17:18:07Z",
+	"modified": "2024-08-30T17:42:18.850011Z",
 	"published": "2024-08-30T17:18:07Z",
+	"aliases": [
+		"CVE-2024-43780",
+		"GHSA-2jhx-w3vc-w59g"
+	],
 	"summary": "Mattermost allows guest user with read access to upload files to a channel in github.com/mattermost/mattermost-server",
 	"details": "Mattermost allows guest user with read access to upload files to a channel in github.com/mattermost/mattermost-server",
 	"affected": [

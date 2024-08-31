@@ -1,8 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3090",
-	"modified": "2024-08-30T17:18:07Z",
+	"modified": "2024-08-30T17:42:36.208359Z",
 	"published": "2024-08-30T17:18:07Z",
+	"aliases": [
+		"CVE-2024-40884",
+		"GHSA-3j95-8g47-fpwh"
+	],
 	"summary": "Mattermost allows team admin user without \"Add Team Members\" permission to disable invite URL in github.com/mattermost/mattermost-server",
 	"details": "Mattermost allows team admin user without \"Add Team Members\" permission to disable invite URL in github.com/mattermost/mattermost-server",
 	"affected": [

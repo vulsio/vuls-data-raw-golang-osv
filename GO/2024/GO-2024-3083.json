@@ -1,8 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3083",
-	"modified": "2024-08-30T17:18:07Z",
+	"modified": "2024-08-30T17:42:18.947036Z",
 	"published": "2024-08-30T17:18:07Z",
+	"aliases": [
+		"CVE-2024-6508",
+		"GHSA-4crf-28c7-v4gr"
+	],
 	"summary": "Openshift Console insufficient entropy vulnerability in github.com/openshift/console",
 	"details": "Openshift Console insufficient entropy vulnerability in github.com/openshift/console",
 	"affected": [

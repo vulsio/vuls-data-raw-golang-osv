@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3081",
-	"modified": "2024-08-30T17:18:07Z",
+	"modified": "2024-08-30T17:42:47.928878Z",
 	"published": "2024-08-30T17:18:07Z",
+	"aliases": [
+		"GHSA-fpgj-cr28-fvpx"
+	],
 	"summary": "CWA-2024-006: wasmd non-deterministic module_query_safe query in github.com/CosmWasm/wasmd",
 	"details": "CWA-2024-006: wasmd non-deterministic module_query_safe query in github.com/CosmWasm/wasmd",
 	"affected": [
