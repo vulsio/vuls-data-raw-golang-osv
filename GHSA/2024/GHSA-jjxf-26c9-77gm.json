@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jjxf-26c9-77gm",
-	"modified": "2024-09-04T08:13:49.428117Z",
+	"modified": "2024-09-04T17:02:27Z",
 	"published": "2024-09-02T06:30:49Z",
 	"aliases": [
 		"BIT-vault-2024-8365",
@@ -12,7 +12,7 @@
 	"severity": [
 		{
 			"type": "CVSS_V3",
-			"score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:N/A:N"
+			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
 		},
 		{
 			"type": "CVSS_V4",
