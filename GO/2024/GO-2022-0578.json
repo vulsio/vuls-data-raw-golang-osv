@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2022-0578",
-	"modified": "2024-08-21T15:27:04.097392Z",
+	"modified": "2024-09-05T21:43:59Z",
 	"published": "2024-08-21T15:11:38Z",
 	"aliases": [
 		"BIT-vault-2021-42135",
@@ -23,6 +23,9 @@
 					"events": [
 						{
 							"introduced": "1.8.0"
+						},
+						{
+							"fixed": "1.8.5"
 						}
 					]
 				}
