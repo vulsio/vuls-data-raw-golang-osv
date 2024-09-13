@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mv6w-j4xc-qpfw",
-	"modified": "2024-08-07T19:51:08Z",
+	"modified": "2024-09-12T17:51:53Z",
 	"published": "2023-02-08T22:37:10Z",
 	"aliases": [
 		"BIT-argo-cd-2023-25163",
@@ -17,29 +17,6 @@
 		}
 	],
 	"affected": [
-		{
-			"package": {
-				"ecosystem": "Go",
-				"name": "github.com/argoproj/argo-cd",
-				"purl": "pkg:golang/github.com/argoproj/argo-cd"
-			},
-			"ranges": [
-				{
-					"type": "SEMVER",
-					"events": [
-						{
-							"introduced": "2.6.0-rc1"
-						},
-						{
-							"fixed": "2.6.1"
-						}
-					]
-				}
-			],
-			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/02/GHSA-mv6w-j4xc-qpfw/GHSA-mv6w-j4xc-qpfw.json"
-			}
-		},
 		{
 			"package": {
 				"ecosystem": "Go",
