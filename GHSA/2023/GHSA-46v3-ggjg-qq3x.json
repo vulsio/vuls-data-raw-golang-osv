@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-46v3-ggjg-qq3x",
-	"modified": "2023-11-08T04:10:46.662097Z",
+	"modified": "2024-09-16T15:05:11Z",
 	"published": "2023-06-06T01:59:54Z",
 	"aliases": [
 		"CVE-2022-43760"
@@ -12,14 +12,18 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:P/VC:N/VI:N/VA:N/SC:H/SI:H/SA:H"
 		}
 	],
 	"affected": [
 		{
 			"package": {
 				"ecosystem": "Go",
-				"name": "rancher/rancher",
-				"purl": "pkg:golang/rancher/rancher"
+				"name": "github.com/rancher/rancher",
+				"purl": "pkg:golang/github.com/rancher/rancher"
 			},
 			"ranges": [
 				{
@@ -41,8 +45,8 @@
 		{
 			"package": {
 				"ecosystem": "Go",
-				"name": "rancher/rancher",
-				"purl": "pkg:golang/rancher/rancher"
+				"name": "github.com/rancher/rancher",
+				"purl": "pkg:golang/github.com/rancher/rancher"
 			},
 			"ranges": [
 				{
@@ -95,6 +99,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2023-06-06T01:59:54Z",
 		"nvd_published_at": "2023-06-01T13:15:10Z",
-		"severity": "HIGH"
+		"severity": "MODERATE"
 	}
 }

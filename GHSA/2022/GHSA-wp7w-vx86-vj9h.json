@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wp7w-vx86-vj9h",
-	"modified": "2024-08-20T20:58:56.903910Z",
+	"modified": "2024-09-16T15:00:24Z",
 	"published": "2022-05-13T01:34:58Z",
 	"aliases": [
 		"CVE-2018-10856",
@@ -13,14 +13,18 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
 		{
 			"package": {
 				"ecosystem": "Go",
-				"name": "github.com/containers/podman/v4",
-				"purl": "pkg:golang/github.com/containers/podman/v4"
+				"name": "github.com/containers/podman",
+				"purl": "pkg:golang/github.com/containers/podman"
 			},
 			"ranges": [
 				{
@@ -56,6 +60,10 @@
 		{
 			"type": "WEB",
 			"url": "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-10856"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/containers/podman"
 		}
 	],
 	"database_specific": {
