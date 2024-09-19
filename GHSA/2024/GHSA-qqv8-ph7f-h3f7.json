@@ -64,6 +64,10 @@
 		{
 			"type": "PACKAGE",
 			"url": "https://github.com/openshift/builder"
+		},
+		{
+			"type": "WEB",
+			"url": "https://pkg.go.dev/vuln/GO-2024-3129"
 		}
 	],
 	"database_specific": {

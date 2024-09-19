@@ -64,6 +64,10 @@
 		{
 			"type": "PACKAGE",
 			"url": "https://github.com/openshift/openshift-controller-manager"
+		},
+		{
+			"type": "WEB",
+			"url": "https://pkg.go.dev/vuln/GO-2024-3128"
 		}
 	],
 	"database_specific": {
