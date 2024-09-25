@@ -6,6 +6,10 @@
 	"aliases": [
 		"CVE-2022-4045"
 	],
+	"related": [
+		"CGA-g3g9-wf86-ppjf",
+		"CGA-wc8j-qcj8-g7gg"
+	],
 	"summary": "Denial of service in Mattermost",
 	"details": "A denial-of-service vulnerability in the Mattermost allows an authenticated user to crash the server via multiple requests to one of the API endpoints which could fetch a large amount of data.",
 	"severity": [

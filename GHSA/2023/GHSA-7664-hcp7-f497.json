@@ -9,7 +9,9 @@
 	],
 	"related": [
 		"CGA-cq5p-922f-8wjg",
-		"CGA-q6w8-w2fj-g47w"
+		"CGA-m6j6-xrp7-mrrv",
+		"CGA-q6w8-w2fj-g47w",
+		"CGA-qwf6-gjxq-696h"
 	],
 	"summary": "Mattermost Injection vulnerability",
 	"details": "Mattermost webapp fails to validate route parameters in/<TEAM_NAME>/channels/<CHANNEL_NAME> allowing an attacker to perform a client-side path traversal.\n\n",
