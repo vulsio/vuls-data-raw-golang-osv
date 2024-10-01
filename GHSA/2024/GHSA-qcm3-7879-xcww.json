@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qcm3-7879-xcww",
-	"modified": "2024-08-17T08:12:08.470465Z",
+	"modified": "2024-09-30T19:48:17Z",
 	"published": "2024-08-15T21:46:46Z",
 	"aliases": [
 		"BIT-cilium-2024-42487",
@@ -113,7 +113,8 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-113"
+			"CWE-113",
+			"CWE-436"
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-08-15T21:46:46Z",
