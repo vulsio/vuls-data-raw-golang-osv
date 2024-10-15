@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3166",
-	"modified": "2024-10-09T20:59:11.224830Z",
+	"modified": "2024-10-14T19:05:04Z",
 	"published": "2024-10-09T20:29:23Z",
 	"aliases": [
 		"CVE-2024-47534",
@@ -10,26 +10,6 @@
 	"summary": "Incorrect delegation lookups can make go-tuf download the wrong artifact in github.com/theupdateframework/go-tuf",
 	"details": "Incorrect delegation lookups can make go-tuf download the wrong artifact in github.com/theupdateframework/go-tuf",
 	"affected": [
-		{
-			"package": {
-				"ecosystem": "Go",
-				"name": "github.com/theupdateframework/go-tuf",
-				"purl": "pkg:golang/github.com/theupdateframework/go-tuf"
-			},
-			"ranges": [
-				{
-					"type": "SEMVER",
-					"events": [
-						{
-							"introduced": "0"
-						}
-					]
-				}
-			],
-			"database_specific": {
-				"source": "https://vuln.go.dev/ID/GO-2024-3166.json"
-			}
-		},
 		{
 			"package": {
 				"ecosystem": "Go",
