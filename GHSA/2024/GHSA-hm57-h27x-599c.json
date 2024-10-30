@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hm57-h27x-599c",
-	"modified": "2024-10-28T18:57:17.121879Z",
+	"modified": "2024-10-30T16:27:19.723375Z",
 	"published": "2024-10-28T15:31:16Z",
 	"aliases": [
-		"CVE-2024-10214"
+		"CVE-2024-10214",
+		"GO-2024-3227"
 	],
 	"summary": "Mattermost incorrectly issues two sessions when using desktop SSO",
 	"details": "Mattermost versions 9.11.X <= 9.11.1, 9.5.x <= 9.5.9 incorrectly issues two sessions when using desktop SSO - one in the browser and one in desktop with incorrect settings.",
