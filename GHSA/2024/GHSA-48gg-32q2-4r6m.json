@@ -64,6 +64,7 @@
 	"database_specific": {
 		"cwe_ids": [
 			"CWE-285",
+			"CWE-294",
 			"CWE-672"
 		],
 		"github_reviewed": true,
