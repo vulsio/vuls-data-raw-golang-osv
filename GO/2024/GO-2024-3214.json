@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3214",
-	"modified": "2024-10-28T15:42:18.744189Z",
+	"modified": "2024-10-31T22:12:42.907388Z",
 	"published": "2024-10-28T15:20:02Z",
 	"aliases": [
-		"CVE-2024-49381"
+		"CVE-2024-49381",
+		"GHSA-6h8w-hrfp-pffx"
 	],
 	"summary": "Plenti arbitrary file deletion vulnerability in github.com/plentico/plenti",
 	"details": "Plenti arbitrary file deletion vulnerability in github.com/plentico/plenti",

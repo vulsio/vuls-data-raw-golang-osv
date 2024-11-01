@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GO-2024-3213",
-	"modified": "2024-10-28T15:42:18.665342Z",
+	"modified": "2024-10-31T22:12:47.230302Z",
 	"published": "2024-10-28T15:20:02Z",
 	"aliases": [
-		"CVE-2024-49380"
+		"CVE-2024-49380",
+		"GHSA-2p96-p7qh-4rgr"
 	],
 	"summary": "Plenti arbitrary file write vulnerability in github.com/plentico/plenti",
 	"details": "Plenti arbitrary file write vulnerability in github.com/plentico/plenti",
