@@ -80,6 +80,7 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
+			"CWE-77",
 			"CWE-78"
 		],
 		"github_reviewed": true,
