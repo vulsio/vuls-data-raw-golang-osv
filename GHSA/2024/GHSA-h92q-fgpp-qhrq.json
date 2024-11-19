@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-h92q-fgpp-qhrq",
-	"modified": "2024-09-25T18:12:17.300755Z",
+	"modified": "2024-11-18T16:27:14Z",
 	"published": "2024-09-18T21:30:48Z",
 	"aliases": [
 		"CVE-2023-30464",
@@ -65,6 +65,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-09-18T22:50:13Z",
 		"nvd_published_at": "2024-09-18T21:15:13Z",
-		"severity": "LOW"
+		"severity": "MODERATE"
 	}
 }
