@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xxxw-3j6h-q7h6",
-	"modified": "2024-09-19T17:42:27.816098Z",
+	"modified": "2024-11-20T19:30:12Z",
 	"published": "2024-09-19T12:31:20Z",
 	"aliases": [
-		"CVE-2024-8986"
+		"CVE-2024-8986",
+		"GO-2024-3140"
 	],
 	"summary": "Grafana plugin SDK Information Leakage",
 	"details": "The grafana plugin SDK bundles build metadata into the binaries it compiles; this metadata includes the repository URI for the plugin being built, as retrieved by running `git remote get-url origin`.\n \nIf credentials are included in the repository URI (for instance, to allow for fetching of private dependencies), the final binary will contain the full URI, including said credentials.",
@@ -60,6 +61,10 @@
 		{
 			"type": "WEB",
 			"url": "https://grafana.com/security/security-advisories/cve-2024-8986"
+		},
+		{
+			"type": "WEB",
+			"url": "https://pkg.go.dev/vuln/GO-2024-3140"
 		}
 	],
 	"database_specific": {
