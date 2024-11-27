@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hw28-333w-qxp3",
-	"modified": "2024-08-10T08:11:35.971655Z",
+	"modified": "2024-11-18T16:26:57Z",
 	"published": "2024-07-31T16:53:13Z",
 	"aliases": [
 		"BIT-harbor-2024-22278",
@@ -93,6 +93,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-07-31T16:53:13Z",
 		"nvd_published_at": "2024-08-02T01:15:23Z",
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }
