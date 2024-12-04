@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-2mj3-vfvx-fc43",
-	"modified": "2024-12-02T21:59:39.386975Z",
+	"modified": "2024-12-04T16:59:15.110540Z",
 	"published": "2024-11-29T18:34:03Z",
 	"aliases": [
-		"CVE-2024-36621"
+		"CVE-2024-36621",
+		"GO-2024-3304"
 	],
 	"summary": "Moby Race Condition vulnerability",
 	"details": "moby v25.0.5 is affected by a Race Condition in builder/builder-next/adapters/snapshot/layer.go. The vulnerability could be used to trigger concurrent builds that call the EnsureLayer function resulting in resource leaks/exhaustion.",
