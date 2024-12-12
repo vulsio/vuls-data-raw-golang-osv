@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fqj6-whhx-47p7",
-	"modified": "2024-12-11T19:12:15.523127Z",
+	"modified": "2024-12-12T16:12:07.654827Z",
 	"published": "2024-12-11T18:44:49Z",
 	"aliases": [
-		"CVE-2024-55659"
+		"CVE-2024-55659",
+		"GO-2024-3326"
 	],
 	"summary": "SiYuan has an arbitrary file write in the host via /api/asset/upload",
 	"details": "### Summary\n\nThe /api/asset/upload endpoint in Siyuan is vulnerable to both arbitrary file write to the host and stored XSS (via the file write).\n\n### Impact\nArbitrary file write",
