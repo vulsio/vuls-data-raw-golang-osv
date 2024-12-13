@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mcw6-3256-64gg",
-	"modified": "2024-12-13T07:59:17.609414Z",
+	"modified": "2024-12-13T15:51:20Z",
 	"published": "2024-04-05T09:30:39Z",
 	"aliases": [
 		"BIT-mattermost-2024-28949",
@@ -140,13 +140,18 @@
 			"url": "https://mattermost.com/security-updates"
 		},
 		{
+			"type": "WEB",
+			"url": "https://pkg.go.dev/vuln/GO-2024-2695"
+		},
+		{
 			"type": "PACKAGE",
 			"url": "mattermost/mattermost"
 		}
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-400"
+			"CWE-400",
+			"CWE-770"
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-04-05T17:05:05Z",
