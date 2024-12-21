@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hr68-hvgv-xxqf",
-	"modified": "2024-12-20T15:27:06.864502Z",
+	"modified": "2024-12-20T21:13:16.190841Z",
 	"published": "2024-12-20T03:30:23Z",
 	"aliases": [
-		"CVE-2024-12678"
+		"CVE-2024-12678",
+		"GO-2024-3354"
 	],
 	"summary": "Hashicorp Nomad Incorrect Privilege Assignment vulnerability",
 	"details": "Nomad Community and Nomad Enterprise (\"Nomad\") allocations are vulnerable to privilege escalation within a namespace through unredacted workload identity tokens. This vulnerability, identified as CVE-2024-12678, is fixed in Nomad Community Edition 1.9.4 and Nomad Enterprise 1.9.4, 1.8.8, and 1.7.16.",
