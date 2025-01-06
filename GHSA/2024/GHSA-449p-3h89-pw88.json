@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-449p-3h89-pw88",
-	"modified": "2024-01-23T15:58:25.425641Z",
+	"modified": "2025-01-06T15:26:30Z",
 	"published": "2024-01-10T15:37:05Z",
 	"aliases": [
 		"CVE-2023-49569",
@@ -30,29 +30,6 @@
 		}
 	],
 	"affected": [
-		{
-			"package": {
-				"ecosystem": "Go",
-				"name": "github.com/go-git/go-git/v4",
-				"purl": "pkg:golang/github.com/go-git/go-git/v4"
-			},
-			"ranges": [
-				{
-					"type": "SEMVER",
-					"events": [
-						{
-							"introduced": "4.0.0"
-						},
-						{
-							"last_affected": "4.13.1"
-						}
-					]
-				}
-			],
-			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/01/GHSA-449p-3h89-pw88/GHSA-449p-3h89-pw88.json"
-			}
-		},
 		{
 			"package": {
 				"ecosystem": "Go",
@@ -87,7 +64,10 @@
 					"type": "SEMVER",
 					"events": [
 						{
-							"introduced": "4.7.1"
+							"introduced": "4.0.0"
+						},
+						{
+							"last_affected": "4.13.1"
 						}
 					]
 				}
