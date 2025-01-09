@@ -93,7 +93,8 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-457"
+			"CWE-457",
+			"CWE-908"
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-02-22T19:34:47Z",
