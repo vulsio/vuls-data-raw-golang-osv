@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6mx3-9qfh-77gj",
-	"modified": "2025-01-10T18:32:25Z",
+	"modified": "2025-01-11T07:57:00.823584Z",
 	"published": "2024-02-29T09:30:34Z",
 	"aliases": [
+		"BIT-mattermost-2024-24988",
 		"CVE-2024-24988",
 		"GO-2024-2589"
 	],
