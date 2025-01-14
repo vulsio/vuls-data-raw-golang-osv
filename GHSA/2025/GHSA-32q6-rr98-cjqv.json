@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-32q6-rr98-cjqv",
-	"modified": "2025-01-13T20:27:19.939049Z",
+	"modified": "2025-01-14T15:57:56Z",
 	"published": "2025-01-13T19:59:24Z",
 	"aliases": [
 		"CVE-2024-56323"
@@ -45,6 +45,10 @@
 			"url": "https://github.com/openfga/openfga/security/advisories/GHSA-32q6-rr98-cjqv"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56323"
+		},
+		{
 			"type": "PACKAGE",
 			"url": "https://github.com/openfga/openfga"
 		}
@@ -55,7 +59,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2025-01-13T19:59:24Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2025-01-13T22:15:14Z",
 		"severity": "MODERATE"
 	}
 }
