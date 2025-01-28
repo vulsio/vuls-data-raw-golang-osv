@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3qc3-mx6x-267h",
-	"modified": "2025-01-21T20:12:05.267318Z",
+	"modified": "2025-01-28T15:41:55.693032Z",
 	"published": "2025-01-20T15:31:24Z",
 	"aliases": [
-		"CVE-2025-24337"
+		"CVE-2025-24337",
+		"GO-2025-3410"
 	],
 	"summary": "Insecure default config access in WriteFreely",
 	"details": "WriteFreely through 0.15.1, when MySQL is used, allows local users to discover credentials by reading config.ini.",
