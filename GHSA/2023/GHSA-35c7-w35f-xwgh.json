@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-35c7-w35f-xwgh",
-	"modified": "2024-08-21T14:56:55.752437Z",
+	"modified": "2025-02-13T19:20:48Z",
 	"published": "2023-10-30T03:30:15Z",
 	"aliases": [
 		"CVE-2021-25736",
@@ -14,7 +14,7 @@
 		"CGA-mhjf-45w8-8626"
 	],
 	"summary": "Kube-proxy may unintentionally forward traffic",
-	"details": "Kube-proxy on Windows can unintentionally forward traffic to local processes listening on the same port (`spec.ports[*].port`) as a LoadBalancer Service when the LoadBalancer controller does not set the `status.loadBalancer.ingress[].ip` field. Clusters \nwhere the LoadBalancer controller sets the `status.loadBalancer.ingress[].ip` field are unaffected.\n\n",
+	"details": "Kube-proxy on Windows can unintentionally forward traffic to local processes listening on the same port (`spec.ports[*].port`) as a LoadBalancer Service when the LoadBalancer controller does not set the `status.loadBalancer.ingress[].ip` field. Clusters \nwhere the LoadBalancer controller sets the `status.loadBalancer.ingress[].ip` field are unaffected.",
 	"severity": [
 		{
 			"type": "CVSS_V3",
@@ -66,6 +66,10 @@
 		{
 			"type": "WEB",
 			"url": "https://groups.google.com/g/kubernetes-security-announce/c/lIoOPObO51Q/m/O15LOazPAgAJ"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20231221-0003"
 		}
 	],
 	"database_specific": {
